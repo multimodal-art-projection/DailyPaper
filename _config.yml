@@ -1,3 +1,5 @@
+name: "M-A-P Daily Paper"
+title: null
 markdown: GFM
 plugins:
   - jekyll-relative-links

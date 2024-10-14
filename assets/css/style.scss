@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
+
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }

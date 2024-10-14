@@ -12,13 +12,13 @@
 
 ## 🔥 Paper Today: 14/10/2024
 
-<div align="center">
+<table class="center">
 
 | Paper  | Affiliation | Comments |
 |:-------------|:-------------|:-------------|
 | x | y | z|
 
-</div>
+</table>
 
 
 ## 🛠️ Papers This Week 

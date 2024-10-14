@@ -9,13 +9,13 @@
 
 ## 🔥 Paper Today: 11/10/2024
 
-<div align="center">
+<table class="center">
 
 | Paper  | Affiliation | Comments |
 |:-------------|:-------------|:-------------|
 | x | y | z|
 
-</div>
+</table>
 
 
 ## 🛠️ Papers This Week 
@@ -25,18 +25,26 @@
 <details>
 <summary> <b>10/10/2024</b> </summary>
 
+<table class="center">
+
 | Paper  | Main Affiliation | Comments |
 | ------------- | ------------- | ------------- |
 | x | y | z|
+
+</table>
 
 </details>
 
 <details>
 <summary> <b>09/10/2024</b> </summary>
 
+<table class="center">
+
 | Paper  | Main Affiliation | Comments |
 | ------------- | ------------- | ------------- |
 | x | y | z|
+
+</table>
 
 </details>
 
