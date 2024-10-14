@@ -5,6 +5,9 @@
 <hr/>
 <h4 align="center">The <a href=https://m-a-p.ai>M-A-P</a> daily paper project curates and reviews a selection of new papers published daily on arXiv, providing insightful commentary on cutting-edge research across various scientific disciplines.</h4>
 <br>
+
+[Click to view previous selection](archived_papers).
+
 <hr/>
 
 ## 🔥 Paper Today: 14/10/2024
