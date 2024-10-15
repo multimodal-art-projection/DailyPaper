@@ -13,32 +13,54 @@
 ## 🔥 Paper Today: 15/10/2024
 
 <table class="center">
-
-Here's the translated form based on your request:
-
 | Paper | Affiliation | Comments |
 |:-------------|:-------------|:-------------|
-| Scalable Multi-Domain Adaptation of Language Models using Modular Experts | UC Berkeley, Google | A recommendation for an early work called Deep-ICL, which has room for improvement. Although the initial approach was not very strong, the fundamental ideas align closely with this direction. It might be among the earliest papers in this area. The proposed method involves using a backbone to integrate several trained expert modules that can be activated based on the input information, along with training a routing system for unseen tasks. This direction may be worth researching for edge applications. |
-| Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code | Purdue University | This benchmark addresses a valuable problem and format. An important takeaway is that "keywords, identifiers, and type identifiers are the most prone to hallucinations." |
-| Retrieval Instead of Fine-tuning: A Retrieval-based Parameter Ensemble for Zero-shot Learning | Massachusetts General Hospital and Harvard Medical School | This is another paper similar to the previous one. |
-| Gradient-Free Neural Network Training on the Edge | Bosch Centre for Artificial Intelligence | The gradient-free training approach involves replacing the gradient with an intermediate tensor, deciding to flip related nodes. Further detailed study is planned for tomorrow. |
-| MoIN: Mixture of Introvert Experts to Upcycle an LLM | - | This paper is also similar to the previous one. |
-| Can In-context Learning Really Generalize to Out-of-distribution Tasks? | Peiking University, MIT | The experiments are quite solid, but the conclusions are similar to those in Jiaoda Li's paper, which also utilized GPT-2. Beyond the unnecessary mathematical details, the main points are: 1. ICL is fundamentally about retrieving the most relevant implicit functions (or patterns) learned during pretraining to solve problems. 2. Learning new input-output mappings is quite challenging. This paper does not extend to cases with multiple pattern combinations or analyze the data intensity required for pattern learning, which is a significant challenge in this direction. |
-| Reconstructive Visual Instruction Tuning | Chinese Academy of Sciences | By introducing reconstructive visual instruction tuning, the fine-grained understanding of LMMs has been significantly enhanced, and hallucination phenomena have been reduced. The focus seems to be on avoiding the introduction of excessive low-level visual information. Balancing this aspect appears to be a delicate matter, bordering on the philosophical. This can be viewed alongside the earlier paper. |
-| Boosting Deductive Reasoning with Step Signals In RLHF | Baichuan AI | This paper has not yet been reviewed but is noted for future reference. |
-| MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models | Chinese Academy of Sciences | This paper is forwarded to Yang Guang and Peng Tao for consideration. It serves as a potential benchmark for evaluating fluid capabilities. The key takeaway aligns with the previous paper, highlighting that LLMs essentially learn a set of patterns and perform pattern retrieval and scheduling during inference. |
-| Fine-grained Attention I/O Complexity: Comprehensive Analysis for Backward Passes | Stevens Institute of Technology, University of Wisconsin-Madison, UC Berkeley, University of Pennsylvania | This paper analyzes the I/O complexity of attention mechanisms, indicating it is worth studying further. Noted for future reference. |
-| SeRA: Self-Reviewing and Alignment of Large Language Models using Implicit Reward Margins | KAIST AI, Amazon | |
-| Inference and Verbalization Functions During In-Context Learning | Stanford University | |
-| Nudging: Inference-time Alignment via Model Collaboration | University of California Irvine | |
-| Enhancing Multi-Step Reasoning Abilities of Language Models through Direct Q-Function Optimization | ByteDance | |
-| One Step at a Time: Combining LLMs and Static Analysis to Generate Next-Step Hints for Programming Tasks | JetBrains Research | |
-| The Same But Different: Structural Similarities and Differences in Multilingual Language Modeling | Brown University | |
-| Automated Rewards via LLM-Generated Progress Functions | Standford University | |
-| ACER: Automatic Language Model Context Extension via Retrieval | CMU, UIUC | |
-| REDO: Execution-Free Runtime Error Detection for Coding Agents | University of Pennsylvania | |
-| Focus on Your Question! Interpreting and Mitigating Toxic CoT Problems in Commonsense Reasoning | University of Chinese Academy of Sciences | |
-|DARE the Extreme: Revisiting Delta-Parameter Pruning For Fine-Tuned Models | University of British Columbia | |
+| **TMGBench: A Systematic Game Benchmark for Evaluating Strategic Reasoning Abilities of LLMs** | HKU, Harbin Institute of Technology | TMGBench includes 144 types of games based on the Robinson-Goforth topology... |
+| **STACKFEED: Structured Textual Actor-Critic Knowledge Base Editing with FeedBack** | Microsoft Research | This presents an interesting reversal of thinking... |
+| **Embedding Self-Correction as an Inherent Ability in Large Language Models for Enhanced Mathematical Reasoning** | Tencent | This work employs OpenCodeInterpreter and Self-Improvement for mathematical applications... |
+| **AFlow: Automating Agentic Workflow Generation** | DeepWisdom, The Hong Kong University of Science and Technology (Guangzhou) | The author expresses personal disinterest... |
+| **VideoAgent: Self-Improving Video Generation** | University of Waterloo, IIT Kharagpur, Google Deepmind | This work focuses on self-improving video generation based on external feedback... |
+| **OpenR: An Open Source Framework for Advanced Reasoning with Large Language Models** | University College London, University of Liverpool, Shanghai Jiao Tong University | This work is framework-oriented, solid, and worth investigating... |
+| **Alignment Between the Decision-Making Logic of LLMs and Human Cognition: A Case Study on Legal LLMs** | University of Geneva, Google DeepMind, École Normale Supérieure | This framework evaluates multi-step CoT generation and LLM judgment abilities... |
+| **Mechanistic Interpretability for AI Safety: A Review** | University of Amsterdam | Basic overview of mechanical interpretability concepts... |
+| **Zero-shot Commonsense Reasoning over Machine Imagination** | - | This study generates text QA pairs from a knowledge base... |
+| **Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation** | Shanghai Artificial Intelligence Laboratory | This concept is intriguing and enjoyable, resembling a sci-fi novel... |
+| **HART: Efficient Visual Generation with Hybrid Autoregressive Transformer** | MIT, NVIDIA, Tsinghua University | This autoregressive diffusion-based image generation model is highly recommended for review... |
+| **LVD-2M: A Long-take Video Dataset with Temporally Dense Captions** | The University of Hong Kong, ByteDance | Congratulations on this valuable synthetic long video generation dataset!... |
+| **TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models** | University of Wisconsin-Madison, Microsoft Research | This benchmark is highly valuable for video understanding, though a bit brief... |
+| **Introducing an Improved Information-Theoretic Measure of Predictive Uncertainty** | Johannes Kepler University Linz | The author hasn't yet had time to thoroughly examine the formulas but intends to... |
+| **When Attention Sink Emerges in Language Models: An Empirical View** | Sea AI Lab, National University of Singapore | Highly recommended reading. Key takeaways include... |
+| **Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models** | MIT, Tsinghua University, NVIDIA | This approach is simple and effective, using residual connections to address... |
+| **SeedLM: Compressing LLM Weights into Seeds of Pseudo-Random Generators** | Apple, Meta | This training-free model compression method aligns well with fine-grained MoE strategies... |
+| **Adapt-∞: Scalable Lifelong Multimodal Instruction Tuning via Dynamic Data Selection** | UNC Chapel Hill | This data selection method can also be applied to text SFT... |
+| **BookWorm: A Dataset for Character Description and Analysis** | University of Edinburgh | This dataset may be quite important for role-playing... |
+| **Evaluating Semantic Variation in Text-to-Image Synthesis: A Causal Perspective** | Fudan University, HKU (Guangzhou) | This new benchmark measures the causal impact of semantic variations... |
+| **Predicting from Strings: Language Model Embeddings for Bayesian Optimization** | UCLA, Google DeepMind, Google | This work explores embeddings of experimental inputs... |
+| **LOBG: Less Overfitting for Better Generalization in Vision-Language Models** | Xi’an Jiaotong University | This study improves generalization capabilities of vision-language models... |
+| **α-DPO: Adaptive Reward Margin is What Direct Preference Optimization Needs** | University of Science and Technology of China | The author plans to review the formulas for this paper... |
+| **FormalAlign: Automated Alignment Evaluation for Autoformalization** | HKU, Cambridge, Huawei Noah's Ark Lab | The issues addressed in this paper are significant... |
+| **Scalable Multi-Domain Adaptation of Language Models using Modular Experts** | UC Berkeley, Google | The proposed method is worth researching for edge applications... |
+| **Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code** | Purdue University | This benchmark addresses valuable problems related to hallucinations in code... |
+| **Retrieval Instead of Fine-tuning: A Retrieval-based Parameter Ensemble for Zero-shot Learning** | Massachusetts General Hospital, Harvard Medical School | Similar to previous work on retrieval-based ensembles... |
+| **Gradient-Free Neural Network Training on the Edge** | Bosch Centre for AI | The gradient-free training approach involves flipping related nodes... |
+| **MoIN: Mixture of Introvert Experts to Upcycle an LLM** | - | Similar to the previous one... |
+| **Can In-context Learning Really Generalize to Out-of-distribution Tasks?** | Peiking University, MIT | The experiments are solid, with conclusions similar to Jiaoda Li's paper... |
+| **Reconstructive Visual Instruction Tuning** | Chinese Academy of Sciences | This introduces reconstructive visual instruction tuning, enhancing LMMs... |
+| **Boosting Deductive Reasoning with Step Signals In RLHF** | Baichuan AI | Not reviewed yet, noted for future reference... |
+| **MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models** | Chinese Academy of Sciences | This benchmark was forwarded to Yang Guang and Peng Tao... |
+| **Fine-grained Attention I/O Complexity: Comprehensive Analysis for Backward Passes** | Stevens Institute of Technology, UC Berkeley, University of Wisconsin-Madison, University of Pennsylvania | Noted for future reference... |
+| **SeRA: Self-Reviewing and Alignment of Large Language Models using Implicit Reward Margins** | KAIST AI, Amazon | ... |
+| **Inference and Verbalization Functions During In-Context Learning** | Stanford University | ... |
+| **Nudging: Inference-time Alignment via Model Collaboration** | UC Irvine | ... |
+| **Enhancing Multi-Step Reasoning Abilities of Language Models through Direct Q-Function Optimization** | ByteDance | ... |
+| **One Step at a Time: Combining LLMs and Static Analysis to Generate Next-Step Hints for Programming Tasks** | JetBrains Research | ... |
+| **The Same But Different: Structural Similarities and Differences in Multilingual Language Modeling** | Brown University | ... |
+| **Automated Rewards via LLM-Generated Progress Functions** | Stanford University | ... |
+| **ACER: Automatic Language Model Context Extension via Retrieval** | CMU, UIUC | ... |
+| **REDO: Execution-Free Runtime Error Detection for Coding Agents** | University of Pennsylvania | ... |
+| **Focus on Your Question! Interpreting and Mitigating Toxic CoT Problems in Commonsense Reasoning** | University of Chinese Academy of Sciences | ... |
+| **DARE the Extreme: Revisiting Delta-Parameter Pruning For Fine-Tuned Models** | University of British Columbia | ... |
+
 
 </table>
 
