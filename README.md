@@ -10,7 +10,7 @@
 
 <hr/>
 
-## 🔥 Paper Today: 15/10/2024
+## 🔥 Paper Today: 14/10/2024
 
 <table class="center">
 
