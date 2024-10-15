@@ -10,13 +10,14 @@
 
 <hr/>
 
-## 🔥 Paper Today: 14/10/2024
+## 🔥 Paper Today: 15/10/2024
 
 <table class="center">
 
 | Paper  | Affiliation | Comments |
 |:-------------|:-------------|:-------------|
 | x | y | z|
+
 
 </table>
 
@@ -25,7 +26,18 @@
 
 (Expand to View)
 
+<details>
+<summary> <b>14/10/2024</b> </summary>
 
+<table class="center">
+
+| Paper  | Main Affiliation | Comments |
+| ------------- | ------------- | ------------- |
+| x | y | z|
+
+</table>
+
+</details>
 
 <hr/>
 
