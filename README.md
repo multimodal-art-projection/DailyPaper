@@ -10,7 +10,38 @@
 
 <hr/>
 
-## 🔥 Paper Today: 15/10/2024
+## 🔥 Paper Today: 17/10/2024
+
+<table class="center">
+
+| Paper | Comments |
+|:-------------|:-------------|
+| OmnixR: Evaluating Omni-modality Language Models on Reasoning across Modalities | The author expresses experience in evaluation, suggesting that effective evaluation data should possess several key characteristics: 1) Avoid coupling between capabilities when assessing a model, focusing on areas where the architecture or data can improve. Examples include OmnixR coupling tri-modal understanding and reasoning, and MMLU-Pro coupling intensive atomic computation/reasoning and knowledge, which may limit optimization directions. 2) Evaluation should address common, universal issues, even future ones. 3) Concepts from cognitive science are critical in shaping effective evaluations. 4) Evaluations are tools to identify problems and drive improvements, not long-term benchmarks for citation longevity. |
+| Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance | The commenter appreciates the direction of this work, noting that prompting LLMs to actively seek information and form workflows is valuable. Once the synthetic environment is robust, workflows with real-world applicability can be produced. However, using RL may be unnecessary at this stage, as forming reusable workflows seems to hold more immediate value. |
+| PRefLexOR: Preference-based Recursive Language Modeling for Exploratory Optimization of Reasoning and Agentic Thinking | A concept reminiscent of O1 systems by an MIT PI, with insightful components like iterative ORPO, dynamic knowledge graphs, and thinking tokens that function similarly to discourse markers in O1 systems. The overall approach offers interesting perspectives. |
+| Revealing the Barriers of Language Agents in Planning | Blocksworld and TravelPlanner are valuable datasets, with a recommendation to include TravelPlanner in OOD benchmarks. The commenter agrees with the paper's key takeaway that current open-source models tend to follow instructions at a coarse level, struggling with complex combinations of instructions. This points to an area requiring improvement: the ability to disassemble and adhere to complex, combinatory instructions. Episodic and parametric memory definitions are also noted as interesting. |
+| JudgeBench: A Benchmark for Evaluating LLM-based Judges | This benchmark emphasizes factuality and complex reasoning, positioning it as a meaningful complement to RewardBench for analyzing RM effectiveness. |
+| DDIL: Improved Diffusion Distillation With Imitation Learning | Marked for future reading. |
+| MoE-Pruner: Pruning Mixture-of-Experts Large Language Model using the Hints from Its Router | Congratulations! 🎉 |
+| Open Domain Question Answering with Conflicting Contexts | A valuable reasoning benchmark incorporating conflicting context. |
+| Understanding the Role of LLMs in Multimodal Evaluation Benchmarks | Insightful observation that many tasks in MMMU do not require visual world knowledge. It highlights the need to consider whether visual inputs and spatial awareness are genuinely necessary when designing benchmarks, classifying them into tasks that don’t need visuals, those that require visuals without spatial reasoning, and those that demand spatial reasoning. |
+| HumanEval-V: Evaluating Visual Understanding and Reasoning Abilities of Large Multimodal Models Through Coding Tasks | A multi-modal coding benchmark, recommended for integration into internal visual benchmarks. Forwarded to @罗莉舒. |
+| Is Complex Query Answering Really Complex? | Differentiating partial from full reasoning queries offers significant insights into long CoT problems, where the challenge lies in determining how much is actual reasoning versus memorized content. This could provide valuable insights for benchmarks like HotpotQA. |
+| WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines | A multilingual and multi-modal benchmark, forwarded to @罗莉舒. |
+| A Scalable Communication Protocol for Networks of Large Language Models | The core insight is that frequent communication should use traditional protocols, less frequent ones structured data, and rare communication natural language. This is considered the correct approach, as not all agents need an active role in directing other agents. Many agent papers exaggerate this necessity, blurring the line between sci-fi and practical application. |
+| Identifying Task Groupings for Multi-Task Learning Using Pointwise V-Usable Information | This work proposes a metric for controlling SFT data distribution, offering potential. It suggests that even SFT, being multi-task in nature, could benefit from analyzing parameter correlations within the language model, possibly using methods from task scaling in multi-task learning. |
+| Counterfactual Generative Modeling with Variational Causal Inference | Marked for future reading. |
+| Exploring Model Kinship for Merging Large Language Models | An intriguing concept defining model kinship, primarily for model merging. While it is currently small in scope, there is significant potential for extension, particularly in the exploration of static patterns in heads and their semantic similarities across models. The concept's scope is large and worth further exploration. |
+| Rethinking Visual Counterfactual Explanations Through Region Constraint | Marked for future reading, with initial thoughts that Automated Region Extraction may not be essential. Other parts of the definition seem coherent, and further study is required. |
+
+</table>
+
+
+## 🛠️ Papers This Week 
+
+(Expand to View)
+<details>
+<summary> <b>15/10/2024</b> </summary>
 
 <table class="center">
 
@@ -61,16 +92,11 @@
 | REDO: Execution-Free Runtime Error Detection for Coding Agents | University of Pennsylvania | - |
 | Focus on Your Question! Interpreting and Mitigating Toxic CoT Problems in Commonsense Reasoning | University of Chinese Academy of Sciences | - |
 | DARE the Extreme: Revisiting Delta-Parameter Pruning For Fine-Tuned Models | University of British Columbia | - |
-
-
-
-
 </table>
 
+</details>
 
-## 🛠️ Papers This Week 
-
-(Expand to View)
+<hr/>
 
 <details>
 <summary> <b>14/10/2024</b> </summary>
