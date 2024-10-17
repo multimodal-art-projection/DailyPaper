@@ -32,7 +32,7 @@
 | Identifying Task Groupings for Multi-Task Learning Using Pointwise V-Usable Information | This work proposes a metric for controlling SFT data distribution, offering potential. It suggests that even SFT, being multi-task in nature, could benefit from analyzing parameter correlations within the language model, possibly using methods from task scaling in multi-task learning. |
 | Counterfactual Generative Modeling with Variational Causal Inference | - |
 | Exploring Model Kinship for Merging Large Language Models | An intriguing concept defining model kinship, primarily for model merging. While it is currently small in scope, there is significant potential for extension, particularly in the exploration of static patterns in heads and their semantic similarities across models. The concept's scope is large and worth further exploration. |
-| Rethinking Visual Counterfactual Explanations Through Region Constraint | Marked for future reading, with initial thoughts that Automated Region Extraction may not be essential. Other parts of the definition seem coherent, and further study is required. |
+| Rethinking Visual Counterfactual Explanations Through Region Constraint | Automated Region Extraction may not be essential. Other parts of the definition seem coherent, and further study is required. |
 
 </table>
 
