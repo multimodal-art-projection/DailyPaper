@@ -78,7 +78,7 @@
 | Can In-context Learning Really Generalize to Out-of-distribution Tasks? | Solid experiments but similar to a previous paper, showing ICL mainly retrieves implicit functions from pretraining. |
 | Reconstructive Visual Instruction Tuning | By introducing reconstructive visual instruction tuning, this significantly improves fine-grained understanding in LMMs and reduces hallucination. It aims to balance low-level visual information, though it feels somewhat esoteric. |
 | Boosting Deductive Reasoning with Step Signals In RLHF | - |
-| MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models | Forwarded to @Yang Guang @Peng Tao. Potentially a good benchmark for evaluating fluid intelligence. |
+| MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models | Potentially a good benchmark for evaluating fluid intelligence. |
 | Fine-grained Attention I/O Complexity: Comprehensive Analysis for Backward Passes | A detailed analysis of attention mechanism I/O complexity. Worth revisiting. |
 
 </table>
