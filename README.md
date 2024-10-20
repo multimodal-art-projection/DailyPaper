@@ -43,6 +43,7 @@
 <summary> <b>15/10/2024</b> </summary>
 
 <table class="center">
+
 | Paper | Comments |
 |:-------------|:-------------|
 | TMGBench: A Systematic Game Benchmark for Evaluating Strategic Reasoning Abilities of LLMs | TMGBENCH includes 144 types of games based on Robinson-Goforth topologies, each containing multiple instances. These games can be further organized into sequential, parallel, and nested forms. Evaluation metrics are designed, effectively reflecting fluid intelligence and dynamic scalability. Similar to previous benchmarks, a decisive gap between open-source models and models like Claude and GPT-4 was observed. Forwarded to @Peng Tao @Yang Guang. Model behavior traits may be critical, as BoN's ability to select good cases depends on sufficient sampling diversity. However, open-source models lack dynamic thinking, possibly making inference scaling harder for these models. Highly recommended for reading, with an emphasis on improving dynamic pattern composition. |
