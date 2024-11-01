@@ -1,3 +1,4 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <h1 align="center"><img src="https://cdn-avatars.huggingface.co/v1/production/uploads/63839e9962badff4326cf360/k4Q7R4XLDMp_1VF4C6GEd.jpeg" width="25"> M-A-P Daily Paper</h1>
 <p align="center">
 <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://media.giphy.com/media/Rn26lWjqA0uUU/giphy.gif" width="100"></a>
