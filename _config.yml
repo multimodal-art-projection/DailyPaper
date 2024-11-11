@@ -1,8 +1,8 @@
 name: "M-A-P Daily Paper"
 title: null
 markdown: GFM
-plugins:
-  - jekyll-relative-links
+# Google Analytics
+google_analytics: G-JVCDSQLJ0Y
 relative_links:
   enabled: true
   collections: true
@@ -10,5 +10,7 @@ include:
   - README.md
   - archived_papers.md
   - archived_papers
-# Google Analytics
-google_analytics: G-9891MDG332
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
