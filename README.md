@@ -95,6 +95,7 @@
 <summary> <b>06/11/2024</b> </summary>
 
 <table class="center">
+  
 | Paper | Comments |
 |:-------------|:-------------|
 | On Improved Conditioning Mechanisms and Pre-training Strategies for Diffusion Models | This paper proposes decoupling semantic conditions from other conditions and uses cosine weighting to adjust the contribution of low-level control conditions. It introduces weight transfer strategies from pre-trained models to larger datasets and higher resolutions through interpolated positional embeddings, scaled noise scheduling, and stronger data augmentation. However, upon closer examination, the hyperparameters involved appear numerous and potentially difficult to tune, especially without extensive diffusion experiments. Insights from experts on effective tuning tricks in this context would be valuable. |
