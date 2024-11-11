@@ -10,7 +10,6 @@ include:
   - README.md
   - archived_papers.md
   - archived_papers
-remote_theme: jekyll/minima
+
 plugins:
-  - jekyll-remote-theme
   - jekyll-relative-links
