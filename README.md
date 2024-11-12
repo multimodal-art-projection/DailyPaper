@@ -11,7 +11,7 @@
 
 <hr/>
 
-## 🔥 Paper Today: 08/11/2024
+## 🔥 Paper Today: 11/11/2024
 
 <table class="center">
 
