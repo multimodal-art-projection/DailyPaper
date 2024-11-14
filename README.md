@@ -10,6 +10,7 @@
 [Click to view previous selection](https://m-a-p.ai/DailyPaper/archived_papers.html).
 
 <hr/>
+
 ## 🔥 Paper Today: 12/11/2024
 <table class="center">
 
